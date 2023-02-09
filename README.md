@@ -17,3 +17,10 @@ cargo build
 cargo run
 ```
 
+* demo
+
+``` shell
+cargo build
+cat ./data/demo.csv | ./target/debug/var_csv
+```
+
